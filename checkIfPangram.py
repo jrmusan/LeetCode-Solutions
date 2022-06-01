@@ -3,4 +3,4 @@ class Solution:
         
         # All we need to do is ensure there are 27 unique letters
         # If we cast this to a set we will have only unique elements
-        return len(set(sentence)) >=26
+        return len(set(sentence)) ==26
